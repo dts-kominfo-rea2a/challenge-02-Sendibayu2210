@@ -23,14 +23,14 @@ function lakukanLooping(arrPegawai) {
 
       Contoh: ["Aisyah Nirmala", "Mansur Faisal", ...]
   */
-  let hasilLooping = null;  
-  hasilLooping = [];  
+  let hasilLooping = null;   
+  hasilLooping = [];
   for(let i=0; i<arrayObjectPegawai.length; i++){
     // ditampilkan dalam bentuk array
-    // hasilLooping.push(arrayObjectPegawai[i].namaDepan + " " + arrayObjectPegawai[i].namaBelakang);
+    hasilLooping.push(arrayObjectPegawai[i].namaDepan + " " + arrayObjectPegawai[i].namaBelakang);
 
     // ditampilkan dalam bentuk string 
-    hasilLooping += arrayObjectPegawai[i].namaDepan + " " + arrayObjectPegawai[i].namaBelakang + "\n";
+    // hasilLooping += arrayObjectPegawai[i].namaDepan + " " + arrayObjectPegawai[i].namaBelakang + "\n";
   }     
 
 
